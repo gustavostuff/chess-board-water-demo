@@ -1,8 +1,8 @@
-## This is a 2D/3D demo that solves the following problem
+## Problem to solve
 
 Imagine a chess board where each square has a height, forming a topology. Water is poured over the entire board and collects in "valleys" or flows over the edges. What volume of water does a given board hold?
 
-### How does the algorithm work?
+### How does this algorith work?
 
 Image a randomly generated board such as:
 
@@ -25,6 +25,7 @@ Image a randomly generated board such as:
   ![](https://raw.githubusercontent.com/tavuntu/chess-board-water-demo/main/assets/readme_media/empty-spaces-1.png)
 * So that means level 1 can hold 4 units of water (**white**)
 * Now let's see level 2:
+
   ![](https://raw.githubusercontent.com/tavuntu/chess-board-water-demo/main/assets/readme_media/empty-spaces-2.png)
 * Here we have 6 units of water, so we add those to the previous ones (10 so far)
 * We repeat this addition until we reach a layer where water won't stay there (all pink)
@@ -47,6 +48,6 @@ Pink water can be "marked" by applying the [Flood Fill algorithm](https://en.wik
 
 ---
 
-### Video (marked as not listed)
+### Video
 
 [![](https://i.postimg.cc/NMh4Nsb1/yt-image.png)](https://youtu.be/rbrp4Uf4Ljw)
