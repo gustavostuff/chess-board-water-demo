@@ -55,3 +55,5 @@ Pink water can be "marked" by applying the [Flood Fill algorithm](https://en.wik
 ### Assumptions
 
 * If we consider each square is a square inch, then the heights can only be integer inch values, so the total water volume will be an integer amount of cubic inches.
+
+* To run this demo in you machine you need to install LÖVE (https://love2d.org/), download the .love file and just click on it
