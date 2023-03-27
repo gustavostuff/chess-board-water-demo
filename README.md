@@ -20,14 +20,14 @@ Image a randomly generated board such as:
 
 * Get all the "slices" of empty space (on the X,Y plane)
 * We start with level 1 (bottom)
-* As you can see, there are 8 empty spaces in here, and 4 of them will flow over the board (magenta)
+* As you can see, there are 8 empty spaces in here, and 4 of them will flow over the board (**magenta** squares)
 
   ![](https://raw.githubusercontent.com/tavuntu/chess-board-water-demo/main/assets/readme_media/empty-spaces-1.png)
-* So that means level 1 can hold 4 units of water (**white**)
+* So that means level 1 can hold 4 units of water (**white** squares)
 * Now let's see level 2:
 
   ![](https://raw.githubusercontent.com/tavuntu/chess-board-water-demo/main/assets/readme_media/empty-spaces-2.png)
-* Here we have 6 units of water, so we add those to the previous ones (10 so far)
+* Here we have 6 units of "valid" water, so we add those to the previous ones (10 so far)
 * We repeat this addition until we reach a layer where water won't stay there (all pink)
 
 ## How to distiguish white vs pink water?
