@@ -16,7 +16,7 @@ Image a randomly generated board such as:
 2, 6, 8, 1, 6, 8, 7, 3
 3, 7, 1, 3, 3, 3, 5, 7
 ```
-...where each number represents the height of each square. The steps to (eventually) get the water volume would be:
+...where each number represents the height of the square. The steps to (eventually) get the water volume would be:
 
 * Get all the "slices" of empty space (on the X,Y plane)
 * We start with level 1 (bottom)
@@ -51,3 +51,7 @@ Pink water can be "marked" by applying the [Flood Fill algorithm](https://en.wik
 ### Video
 
 [![](https://i.postimg.cc/NMh4Nsb1/yt-image.png)](https://youtu.be/rbrp4Uf4Ljw)
+
+### Assumptions
+
+* If we consider each square is a square inch, then the heights can only be integer inch values, so the total water volume will be an integer amount of cubic inches.
