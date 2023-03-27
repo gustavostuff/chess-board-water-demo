@@ -28,7 +28,7 @@ Image a randomly generated board such as:
 
   ![](https://raw.githubusercontent.com/tavuntu/chess-board-water-demo/main/assets/readme_media/empty-spaces-2.png)
 * Here we have 6 units of "valid" water, so we add those to the previous ones (10 so far)
-* We repeat this addition until we reach a layer where water won't stay there (all pink)
+* We repeat this addition until we reach a layer with "unstable" water only
 
 ## How to distiguish white vs pink water?
 
