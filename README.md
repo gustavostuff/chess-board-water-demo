@@ -36,6 +36,8 @@ Pink water can be "marked" by applying the [Flood Fill algorithm](https://en.wik
 
 ![](https://raw.githubusercontent.com/tavuntu/chess-board-water-demo/main/assets/readme_media/flood.gif)
 
+## About the Demo
+
 ### Controllers
 
 It's a typical FPS setup:
