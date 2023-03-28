@@ -2,7 +2,7 @@
 
 Imagine a chess board where each square has a height, forming a topology. Water is poured over the entire board and collects in "valleys" or flows over the edges. What volume of water does a given board hold?
 
-### How does this algorith work?
+## About the solution
 
 Image a randomly generated board such as:
 
@@ -57,8 +57,6 @@ Plus:
 ![](https://raw.githubusercontent.com/tavuntu/chess-board-water-demo/main/assets/readme_media/2.png)
 
 ![](https://raw.githubusercontent.com/tavuntu/chess-board-water-demo/main/assets/readme_media/3.png)
-
----
 
 ### Video
 
