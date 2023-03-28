@@ -56,8 +56,8 @@ function love.draw()
   love.graphics.clear(colors.green)
 
   renderer3d:draw()
-  renderer2d:drawSlice()
   renderer2d:drawTopology(currentBoard)
+  renderer2d:drawSlice()
   renderer2d:printInfo()
 
   love.graphics.setCanvas()

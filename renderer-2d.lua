@@ -92,7 +92,7 @@ function renderer2d:init(board)
   self.board = board
   self.boardX = 10
   self.boardY = 10
-  self.squareSize = 12
+  self.squareSize = 5
   self.squarePadding = 0
   self.showTopology = true
   self.sliceIndex = 1
@@ -123,16 +123,11 @@ function renderer2d:drawTopology(board)
       local color = colors.heightLevels[item]
       love.graphics.setColor(color)
 
-      -- love.graphics.rectangle('fill',
-      --   squareX,
-      --   squareY,
-      --   self.squareSize,
-      --   self.squareSize
-      -- )
-
-      love.graphics.print(item,
+      love.graphics.rectangle('fill',
         squareX,
-        squareY
+        squareY,
+        self.squareSize,
+        self.squareSize
       )
     end
   end
