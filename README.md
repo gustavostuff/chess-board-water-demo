@@ -70,4 +70,4 @@ Plus:
 
 * To run this demo in you machine you need to install LÖVE (https://love2d.org/), download the .love file and just click on it
 
-* See `rendered-2d.lua`, that's where the actual work is done
+* See `renderer-2d.lua`, that's where the actual work is done
