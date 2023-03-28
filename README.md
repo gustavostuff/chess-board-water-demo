@@ -74,3 +74,7 @@ Plus:
 * See `renderer-2d.lua`, that's where the actual work is done
 
 * **For my interviewer**: In the TypeScript assessment I mistakenly took each individual water box as 1 cubic inch and not 0.5, my bad :)
+
+* My son helped me with some modeling so this was technically a fun family project!
+
+![](https://raw.githubusercontent.com/tavuntu/chess-board-water-demo/main/assets/readme_media/clay-model.png)
