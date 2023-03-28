@@ -64,7 +64,7 @@ Plus:
 
 [![](https://i.postimg.cc/NMh4Nsb1/yt-image.png)](https://youtu.be/rbrp4Uf4Ljw)
 
-### Notes
+## Notes
 
 * If we consider each square is a square inch, then the heights can only be integer inch values, so the total water volume will be an integer amount of cubic inches.
 
