@@ -30,7 +30,7 @@ Image a randomly generated board such as:
 * Here we have 6 units of "valid" water, so we add those to the previous ones (10 so far)
 * We repeat this addition until we reach a layer with "unstable" water only
 
-## How to distiguish white vs pink water?
+### How to distiguish white vs pink water?
 
 Pink water can be "marked" by applying the [Flood Fill algorithm](https://en.wikipedia.org/wiki/Flood_fill), we just need to iterate over the empty spaces on the perimeter of the board. This flood fill won't reach the "valleys" where water can stay.
 
