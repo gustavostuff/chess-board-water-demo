@@ -36,9 +36,16 @@ Pink water can be "marked" by applying the [Flood Fill algorithm](https://en.wik
 
 ![](https://raw.githubusercontent.com/tavuntu/chess-board-water-demo/main/assets/readme_media/flood.gif)
 
----
+### Controllers
 
-### Demo screenshots
+It's a typical FPS setup:
+
+* WASD to move
+* Space to go up
+* Shift to go down
+* Mouse to rotate camera
+
+### Some screenshots
 
 ![](https://raw.githubusercontent.com/tavuntu/chess-board-water-demo/main/assets/readme_media/1.png)
 
@@ -52,8 +59,10 @@ Pink water can be "marked" by applying the [Flood Fill algorithm](https://en.wik
 
 [![](https://i.postimg.cc/NMh4Nsb1/yt-image.png)](https://youtu.be/rbrp4Uf4Ljw)
 
-### Assumptions
+### Notes
 
 * If we consider each square is a square inch, then the heights can only be integer inch values, so the total water volume will be an integer amount of cubic inches.
 
 * To run this demo in you machine you need to install LÖVE (https://love2d.org/), download the .love file and just click on it
+
+* See rendered-2d.lua, that's where the actual work is done
