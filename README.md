@@ -45,6 +45,11 @@ It's a typical FPS setup:
 * Shift to go down
 * Mouse to rotate camera
 
+Plus:
+
+* Arrow up to raise water
+* Arrow down to lower water
+
 ### Some screenshots
 
 ![](https://raw.githubusercontent.com/tavuntu/chess-board-water-demo/main/assets/readme_media/1.png)
