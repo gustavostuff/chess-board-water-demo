@@ -67,10 +67,10 @@ Plus:
 
 ## Notes
 
-* Each square is a square inch and height increments are given every 0.5 inches (it can be observed in the 3D model). This means every indivisual pool (a single hole containing water) will contain 0.5 cubic inches of water
+* Each square is a square inch and height increments are given every 0.5 inches (it can be observed in the 3D model). This means every individual pool (a single "box" containing water) will contain exactly 0.5 cubic inches of water
 
-* To run this demo in you machine you need to install LÖVE (https://love2d.org/), download the .love file and just click on it
+* To run this demo in you machine you need to install LÖVE (https://love2d.org/), download the .love file and double click
 
 * See `renderer-2d.lua`, that's where the actual work is done
 
-* **For my interviewer**: In the TypeScript assessment I mistakenly took each individual water pool as 1 cubic inch and not 0.5 :)
+* **For my interviewer**: In the TypeScript assessment I mistakenly took each individual water box as 1 cubic inch and not 0.5, my bad :)
