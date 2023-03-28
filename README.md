@@ -20,7 +20,7 @@ Image a randomly generated board such as:
 
 * Get all the "slices" of empty space (on the X,Y plane)
 * We start with level 1 (bottom)
-* As you can see, there are 8 empty spaces in here, and 4 of them will flow over the board (**magenta** squares)
+* As you can see, there are 8 empty spaces in here, and 4 of them will flow over the edges (**magenta** squares)
 
   ![](https://raw.githubusercontent.com/tavuntu/chess-board-water-demo/main/assets/readme_media/empty-spaces-1.png)
 * So that means level 1 can hold 4 units of water (**white** squares)
