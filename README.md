@@ -62,7 +62,7 @@ Plus:
 
 ### Video
 
-[![](https://i.postimg.cc/NMh4Nsb1/yt-image.png)](https://youtu.be/rbrp4Uf4Ljw)
+[![](https://i.postimg.cc/NMh4Nsb1/yt-image.png)](https://youtu.be/1Emp2AY2rUY)
 
 ## Notes
 

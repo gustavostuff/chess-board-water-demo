@@ -77,7 +77,7 @@ local function _getVolumeOfWater(slices)
         local item = row[x]
 
         if item.empty and not item.willFlowOver then
-          count = count + 1
+          count = count + 0.5
         end
       end
     end

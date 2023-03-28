@@ -28,7 +28,7 @@ function love.load()
 
   love.graphics.setFont(font)
 
-  currentBoard = boards.clay
+  currentBoard = boards.random
   renderer2d:init(currentBoard)
   renderer3d:init(currentBoard)
   renderer3d:changeCameraLook(0, 0)
