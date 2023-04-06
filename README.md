@@ -1,5 +1,7 @@
 ## Problem to solve
 
+**(this was a code assessment for an hiring process)**
+
 Imagine a chess board where each square has a height, forming a topology. Water is poured over the entire board and collects in "valleys" or flows over the edges. What volume of water does a given board hold?
 
 ## About the solution
