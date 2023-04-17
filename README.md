@@ -30,7 +30,7 @@ Image a randomly generated board such as:
 
   ![](https://raw.githubusercontent.com/tavuntu/chess-board-water-demo/main/assets/readme_media/empty-spaces-2.png)
 * Here we have 6 units of "valid" water, so we add those to the previous ones (10 so far)
-* We repeat this addition until we reach a layer with "unstable" water only
+* We repeat this addition until we reach the last layer
 * **Note**: Each "unit" of water = 0.5 cubic inches of water (see the notes at the bottom)
 
 ### How to distiguish white vs pink water?
